@@ -1,5 +1,7 @@
 <?php
 
+Route::resource('/api-models', 'ApiModel1Controller');
+
 Route::group([
     'prefix' => 'auth',
 ], function () {
